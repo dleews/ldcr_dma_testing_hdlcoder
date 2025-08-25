@@ -1,21 +1,27 @@
 function RTW_Sid2UrlHash() {
 	this.urlHashMap = new Array();
+	/* <S1>/autoTrigger_i */
+	this.urlHashMap["rx_dma_test:5808"] = "msg=&block=rx_dma_test:5808";
+	/* <S1>/frameLen_i */
+	this.urlHashMap["rx_dma_test:5809"] = "msg=&block=rx_dma_test:5809";
+	/* <S1>/idleTime_i */
+	this.urlHashMap["rx_dma_test:5810"] = "msg=&block=rx_dma_test:5810";
 	/* <S1>/AND1 */
 	this.urlHashMap["rx_dma_test:4947"] = "msg=rtwMsg_notTraceable&block=rx_dma_test:4947";
 	/* <S1>/Cast1 */
 	this.urlHashMap["rx_dma_test:5616"] = "msg=rtwMsg_notTraceable&block=rx_dma_test:5616";
 	/* <S1>/Cast2 */
-	this.urlHashMap["rx_dma_test:5618"] = "rx_dma_test_src_LDCR_D.v:151";
+	this.urlHashMap["rx_dma_test:5618"] = "rx_dma_test_src_LDCR_D.v:158";
 	/* <S1>/Cast3 */
 	this.urlHashMap["rx_dma_test:5617"] = "msg=rtwMsg_notTraceable&block=rx_dma_test:5617";
 	/* <S1>/Cast4 */
-	this.urlHashMap["rx_dma_test:5619"] = "rx_dma_test_src_LDCR_D.v:135";
+	this.urlHashMap["rx_dma_test:5619"] = "rx_dma_test_src_LDCR_D.v:142";
 	/* <S1>/Channelizer_CH1 */
-	this.urlHashMap["rx_dma_test:2881"] = "rx_dma_test_src_LDCR_D.v:167,168,169,170,171,172,173,174,175";
+	this.urlHashMap["rx_dma_test:2881"] = "rx_dma_test_src_LDCR_D.v:174,175,176,177,178,179,180,181,182";
 	/* <S1>/Channelizer_CH2 */
 	this.urlHashMap["rx_dma_test:3670"] = "msg=rtwMsg_notTraceable&block=rx_dma_test:3670";
 	/* <S1>/Delay1 */
-	this.urlHashMap["rx_dma_test:417"] = "rx_dma_test_src_LDCR_D.v:122,123,124,125,126,127,128,129,130,131,132";
+	this.urlHashMap["rx_dma_test:417"] = "rx_dma_test_src_LDCR_D.v:129,130,131,132,133,134,135,136,137,138,139";
 	/* <S1>/Delay12 */
 	this.urlHashMap["rx_dma_test:4934"] = "msg=rtwMsg_notTraceable&block=rx_dma_test:4934";
 	/* <S1>/Delay13 */
@@ -25,11 +31,11 @@ function RTW_Sid2UrlHash() {
 	/* <S1>/Delay16 */
 	this.urlHashMap["rx_dma_test:4946"] = "msg=rtwMsg_notTraceable&block=rx_dma_test:4946";
 	/* <S1>/Delay2 */
-	this.urlHashMap["rx_dma_test:3078"] = "rx_dma_test_src_LDCR_D.v:176,177,178,179,180,181,182,183,184,185,186";
+	this.urlHashMap["rx_dma_test:3078"] = "rx_dma_test_src_LDCR_D.v:183,184,185,186,187,188,189,190,191,192,193";
 	/* <S1>/Delay3 */
-	this.urlHashMap["rx_dma_test:418"] = "rx_dma_test_src_LDCR_D.v:154,155,156,157,158,159,160,161,162,163,164";
+	this.urlHashMap["rx_dma_test:418"] = "rx_dma_test_src_LDCR_D.v:161,162,163,164,165,166,167,168,169,170,171";
 	/* <S1>/Delay4 */
-	this.urlHashMap["rx_dma_test:3701"] = "rx_dma_test_src_LDCR_D.v:138,139,140,141,142,143,144,145,146,147,148";
+	this.urlHashMap["rx_dma_test:3701"] = "rx_dma_test_src_LDCR_D.v:145,146,147,148,149,150,151,152,153,154,155";
 	/* <S1>/Delay6 */
 	this.urlHashMap["rx_dma_test:3705"] = "msg=rtwMsg_notTraceable&block=rx_dma_test:3705";
 	/* <S1>/Delay7 */
@@ -41,14 +47,14 @@ Complex1 */
 	this.urlHashMap["rx_dma_test:5718"] = "msg=rtwMsg_notTraceable&block=rx_dma_test:5718";
 	/* <S1>/Real-Imag to
 Complex3 */
-	this.urlHashMap["rx_dma_test:5717"] = "rx_dma_test_src_LDCR_D.v:135";
+	this.urlHashMap["rx_dma_test:5717"] = "rx_dma_test_src_LDCR_D.v:142";
 	/* <S1>/Subsystem */
-	this.urlHashMap["rx_dma_test:5751"] = "rx_dma_test_src_LDCR_D.v:189,190,191,192,193,194,195,196";
+	this.urlHashMap["rx_dma_test:5751"] = "rx_dma_test_src_LDCR_D.v:196,197,198,199,200,201,202,203";
 	/* <S1>/Vector
 Concatenate */
 	this.urlHashMap["rx_dma_test:4899"] = "msg=rtwMsg_notTraceable&block=rx_dma_test:4899";
 	/* <S1>/counter_subsystem */
-	this.urlHashMap["rx_dma_test:5765"] = "rx_dma_test_src_LDCR_D.v:199,200,201,202,203,204,205,206,207";
+	this.urlHashMap["rx_dma_test:5765"] = "rx_dma_test_src_LDCR_D.v:206,207,208,209,210,211,212,213,214,215,216,217,218";
 	/* <S2>/Bit Slice */
 	this.urlHashMap["rx_dma_test:5736:2"] = "msg=rtwMsg_notTraceable&block=rx_dma_test:5736:2";
 	/* <S2>/Bit Slice1 */
@@ -122,28 +128,49 @@ Vector */
 	/* <S8>/Relational
 Operator */
 	this.urlHashMap["rx_dma_test:4921"] = "rx_dma_test_src_Subsystem.v:81";
+	/* <S9>/frameTrigger_i */
+	this.urlHashMap["rx_dma_test:5804"] = "msg=&block=rx_dma_test:5804";
+	/* <S9>/autoTrigger_i */
+	this.urlHashMap["rx_dma_test:5805"] = "msg=&block=rx_dma_test:5805";
+	/* <S9>/frameLen_i */
+	this.urlHashMap["rx_dma_test:5806"] = "msg=&block=rx_dma_test:5806";
+	/* <S9>/idleTime_i */
+	this.urlHashMap["rx_dma_test:5807"] = "msg=&block=rx_dma_test:5807";
 	/* <S9>/Add */
-	this.urlHashMap["rx_dma_test:5757"] = "rx_dma_test_src_counter_subsystem.v:99,100,101";
+	this.urlHashMap["rx_dma_test:5757"] = "rx_dma_test_src_counter_subsystem.v:111,112,113";
 	/* <S9>/Add1 */
-	this.urlHashMap["rx_dma_test:5758"] = "rx_dma_test_src_counter_subsystem.v:112,113,114";
+	this.urlHashMap["rx_dma_test:5758"] = "rx_dma_test_src_counter_subsystem.v:124,125,126";
 	/* <S9>/Add2 */
-	this.urlHashMap["rx_dma_test:5759"] = "rx_dma_test_src_counter_subsystem.v:125,126,127";
+	this.urlHashMap["rx_dma_test:5759"] = "rx_dma_test_src_counter_subsystem.v:137,138,139";
+	/* <S9>/Compare
+To Constant */
+	this.urlHashMap["rx_dma_test:5796"] = "rx_dma_test_src_counter_subsystem.v:90";
+	/* <S9>/Compare
+To Constant1 */
+	this.urlHashMap["rx_dma_test:5797"] = "rx_dma_test_src_counter_subsystem.v:74";
 	/* <S9>/Constant */
-	this.urlHashMap["rx_dma_test:5760"] = "rx_dma_test_src_counter_subsystem.v:96";
+	this.urlHashMap["rx_dma_test:5760"] = "rx_dma_test_src_counter_subsystem.v:108";
 	/* <S9>/Constant1 */
-	this.urlHashMap["rx_dma_test:5761"] = "rx_dma_test_src_counter_subsystem.v:109";
+	this.urlHashMap["rx_dma_test:5761"] = "rx_dma_test_src_counter_subsystem.v:121";
 	/* <S9>/Constant2 */
-	this.urlHashMap["rx_dma_test:5762"] = "rx_dma_test_src_counter_subsystem.v:122";
+	this.urlHashMap["rx_dma_test:5762"] = "rx_dma_test_src_counter_subsystem.v:134";
 	/* <S9>/Data Type Conversion */
-	this.urlHashMap["rx_dma_test:5778"] = "rx_dma_test_src_counter_subsystem.v:91";
+	this.urlHashMap["rx_dma_test:5778"] = "rx_dma_test_src_counter_subsystem.v:96,97,98,99,100,101,102,103,104,105";
 	/* <S9>/Data Type Conversion1 */
-	this.urlHashMap["rx_dma_test:5779"] = "rx_dma_test_src_counter_subsystem.v:104";
+	this.urlHashMap["rx_dma_test:5779"] = "rx_dma_test_src_counter_subsystem.v:116";
 	/* <S9>/Data Type Conversion2 */
-	this.urlHashMap["rx_dma_test:5780"] = "rx_dma_test_src_counter_subsystem.v:117";
+	this.urlHashMap["rx_dma_test:5780"] = "rx_dma_test_src_counter_subsystem.v:129";
 	/* <S9>/Data Type Conversion3 */
-	this.urlHashMap["rx_dma_test:5781"] = "rx_dma_test_src_counter_subsystem.v:130";
-	/* <S9>/HDL Counter */
-	this.urlHashMap["rx_dma_test:5743"] = "rx_dma_test_src_counter_subsystem.v:65,66,67,68,71,74,75,78,79,80,81,82,83,84,85,86,87,88";
+	this.urlHashMap["rx_dma_test:5781"] = "rx_dma_test_src_counter_subsystem.v:142";
+	/* <S9>/Delay */
+	this.urlHashMap["rx_dma_test:5788"] = "rx_dma_test_src_counter_subsystem.v:77,78,79,80,81,82,83,84,85,86,87";
+	/* <S9>/Logical
+Operator */
+	this.urlHashMap["rx_dma_test:5800"] = "rx_dma_test_src_counter_subsystem.v:93";
+	/* <S9>/frameCtrl */
+	this.urlHashMap["rx_dma_test:5783"] = "rx_dma_test_src_counter_subsystem.v:96,97,98,99,100,101,102,103,104,105";
+	/* <S9>/valid_o */
+	this.urlHashMap["rx_dma_test:5802"] = "msg=&block=rx_dma_test:5802";
 	/* <S10>/DTProp1 */
 	this.urlHashMap["rx_dma_test:5736:2:1698"] = "msg=rtwMsg_notTraceable&block=rx_dma_test:5736:2:1698";
 	/* <S10>/Reinterp_As_Unsigned_Integer */
@@ -1458,74 +1485,68 @@ Operator */
 	this.urlHashMap["rx_dma_test:4331:235:2"] = "msg=rtwMsg_notTraceable&block=rx_dma_test:4331:235:2";
 	/* <S142>/Constant */
 	this.urlHashMap["rx_dma_test:4331:235:3"] = "msg=rtwMsg_notTraceable&block=rx_dma_test:4331:235:3";
+	/* <S143>/u */
+	this.urlHashMap["rx_dma_test:5796:1"] = "msg=&block=rx_dma_test:5796:1";
+	/* <S143>/Compare */
+	this.urlHashMap["rx_dma_test:5796:2"] = "msg=&block=rx_dma_test:5796:2";
 	/* <S143>/Constant */
-	this.urlHashMap["rx_dma_test:5743:212"] = "msg=rtwMsg_notTraceable&block=rx_dma_test:5743:212";
-	/* <S143>/Count_reg */
-	this.urlHashMap["rx_dma_test:5743:9"] = "msg=rtwMsg_notTraceable&block=rx_dma_test:5743:9";
-	/* <S143>/DT_convert */
-	this.urlHashMap["rx_dma_test:5743:10"] = "msg=rtwMsg_notTraceable&block=rx_dma_test:5743:10";
-	/* <S143>/DT_convert1 */
-	this.urlHashMap["rx_dma_test:5743:11"] = "msg=rtwMsg_notTraceable&block=rx_dma_test:5743:11";
-	/* <S143>/Free_running_or_modulo */
-	this.urlHashMap["rx_dma_test:5743:17"] = "msg=rtwMsg_notTraceable&block=rx_dma_test:5743:17";
-	/* <S143>/From_value */
-	this.urlHashMap["rx_dma_test:5743:19"] = "msg=rtwMsg_notTraceable&block=rx_dma_test:5743:19";
-	/* <S143>/Init_value */
-	this.urlHashMap["rx_dma_test:5743:18"] = "msg=rtwMsg_notTraceable&block=rx_dma_test:5743:18";
-	/* <S143>/Relational
-Operator */
-	this.urlHashMap["rx_dma_test:5743:211"] = "msg=rtwMsg_notTraceable&block=rx_dma_test:5743:211";
-	/* <S143>/Step_value */
-	this.urlHashMap["rx_dma_test:5743:21"] = "msg=rtwMsg_notTraceable&block=rx_dma_test:5743:21";
-	/* <S143>/Switch_dir */
-	this.urlHashMap["rx_dma_test:5743:30"] = "msg=rtwMsg_notTraceable&block=rx_dma_test:5743:30";
-	/* <S143>/Switch_enb */
-	this.urlHashMap["rx_dma_test:5743:31"] = "msg=rtwMsg_notTraceable&block=rx_dma_test:5743:31";
-	/* <S143>/Switch_load */
-	this.urlHashMap["rx_dma_test:5743:32"] = "msg=rtwMsg_notTraceable&block=rx_dma_test:5743:32";
-	/* <S143>/Switch_max */
-	this.urlHashMap["rx_dma_test:5743:33"] = "msg=rtwMsg_notTraceable&block=rx_dma_test:5743:33";
-	/* <S143>/Switch_reset */
-	this.urlHashMap["rx_dma_test:5743:34"] = "msg=rtwMsg_notTraceable&block=rx_dma_test:5743:34";
-	/* <S143>/Switch_type */
-	this.urlHashMap["rx_dma_test:5743:35"] = "msg=rtwMsg_notTraceable&block=rx_dma_test:5743:35";
-	/* <S143>/const_dir */
-	this.urlHashMap["rx_dma_test:5743:36"] = "msg=rtwMsg_notTraceable&block=rx_dma_test:5743:36";
-	/* <S143>/const_load */
-	this.urlHashMap["rx_dma_test:5743:38"] = "msg=rtwMsg_notTraceable&block=rx_dma_test:5743:38";
-	/* <S143>/const_load_val */
-	this.urlHashMap["rx_dma_test:5743:39"] = "msg=rtwMsg_notTraceable&block=rx_dma_test:5743:39";
-	/* <S143>/const_rst */
-	this.urlHashMap["rx_dma_test:5743:40"] = "msg=rtwMsg_notTraceable&block=rx_dma_test:5743:40";
-	/* <S144>/Add */
-	this.urlHashMap["rx_dma_test:5743:4"] = "msg=rtwMsg_notTraceable&block=rx_dma_test:5743:4";
-	/* <S144>/Mod_value */
-	this.urlHashMap["rx_dma_test:5743:5"] = "msg=rtwMsg_notTraceable&block=rx_dma_test:5743:5";
-	/* <S144>/Switch_wrap */
-	this.urlHashMap["rx_dma_test:5743:6"] = "msg=rtwMsg_notTraceable&block=rx_dma_test:5743:6";
-	/* <S144>/Wrap */
-	this.urlHashMap["rx_dma_test:5743:7"] = "msg=rtwMsg_notTraceable&block=rx_dma_test:5743:7";
-	/* <S145>/Logical
-Operator */
-	this.urlHashMap["rx_dma_test:5743:14"] = "msg=rtwMsg_notTraceable&block=rx_dma_test:5743:14";
-	/* <S145>/Pos_step */
-	this.urlHashMap["rx_dma_test:5743:15"] = "msg=rtwMsg_notTraceable&block=rx_dma_test:5743:15";
-	/* <S146>/Add */
-	this.urlHashMap["rx_dma_test:5743:25"] = "msg=rtwMsg_notTraceable&block=rx_dma_test:5743:25";
-	/* <S146>/Mod_value */
-	this.urlHashMap["rx_dma_test:5743:26"] = "msg=rtwMsg_notTraceable&block=rx_dma_test:5743:26";
-	/* <S146>/Switch_wrap */
-	this.urlHashMap["rx_dma_test:5743:27"] = "msg=rtwMsg_notTraceable&block=rx_dma_test:5743:27";
-	/* <S146>/Wrap */
-	this.urlHashMap["rx_dma_test:5743:28"] = "msg=rtwMsg_notTraceable&block=rx_dma_test:5743:28";
-	/* <S147>/Compare */
-	this.urlHashMap["rx_dma_test:5743:236:2"] = "msg=rtwMsg_notTraceable&block=rx_dma_test:5743:236:2";
-	/* <S147>/Constant */
-	this.urlHashMap["rx_dma_test:5743:236:3"] = "msg=rtwMsg_notTraceable&block=rx_dma_test:5743:236:3";
-	/* <S148>/Compare */
-	this.urlHashMap["rx_dma_test:5743:235:2"] = "msg=rtwMsg_notTraceable&block=rx_dma_test:5743:235:2";
-	/* <S148>/Constant */
-	this.urlHashMap["rx_dma_test:5743:235:3"] = "msg=rtwMsg_notTraceable&block=rx_dma_test:5743:235:3";
+	this.urlHashMap["rx_dma_test:5796:3"] = "msg=&block=rx_dma_test:5796:3";
+	/* <S143>/y */
+	this.urlHashMap["rx_dma_test:5796:4"] = "msg=&block=rx_dma_test:5796:4";
+	/* <S144>/u */
+	this.urlHashMap["rx_dma_test:5797:1"] = "msg=&block=rx_dma_test:5797:1";
+	/* <S144>/Compare */
+	this.urlHashMap["rx_dma_test:5797:2"] = "msg=&block=rx_dma_test:5797:2";
+	/* <S144>/Constant */
+	this.urlHashMap["rx_dma_test:5797:3"] = "msg=&block=rx_dma_test:5797:3";
+	/* <S144>/y */
+	this.urlHashMap["rx_dma_test:5797:4"] = "msg=&block=rx_dma_test:5797:4";
+	/* <S145>:1 */
+	this.urlHashMap["rx_dma_test:5783:1"] = "rx_dma_test_src_frameCtrl.v:115";
+	/* <S145>:1:20 */
+	this.urlHashMap["rx_dma_test:5783:1:20"] = "msg=&block=rx_dma_test:5783:1:20";
+	/* <S145>:1:21 */
+	this.urlHashMap["rx_dma_test:5783:1:21"] = "rx_dma_test_src_frameCtrl.v:118,119,120,121,122,125,127,129,138,139,140,141,142,143,144,145,146,147,148,149,150,155,156,165,167,168,169,170,171,172,173,174,175,176,177,178,179,180,185,186,188,189,190,199,203,204,205";
+	/* <S145>:1:26 */
+	this.urlHashMap["rx_dma_test:5783:1:26"] = "msg=&block=rx_dma_test:5783:1:26";
+	/* <S145>:1:27 */
+	this.urlHashMap["rx_dma_test:5783:1:27"] = "rx_dma_test_src_frameCtrl.v:123";
+	/* <S145>:1:31 */
+	this.urlHashMap["rx_dma_test:5783:1:31"] = "msg=&block=rx_dma_test:5783:1:31";
+	/* <S145>:1:32 */
+	this.urlHashMap["rx_dma_test:5783:1:32"] = "rx_dma_test_src_frameCtrl.v:128";
+	/* <S145>:1:34 */
+	this.urlHashMap["rx_dma_test:5783:1:34"] = "rx_dma_test_src_frameCtrl.v:130,131";
+	/* <S145>:1:35 */
+	this.urlHashMap["rx_dma_test:5783:1:35"] = "msg=&block=rx_dma_test:5783:1:35";
+	/* <S145>:1:36 */
+	this.urlHashMap["rx_dma_test:5783:1:36"] = "rx_dma_test_src_frameCtrl.v:132,133,134,135,136,137";
+	/* <S145>:1:40 */
+	this.urlHashMap["rx_dma_test:5783:1:40"] = "msg=&block=rx_dma_test:5783:1:40";
+	/* <S145>:1:41 */
+	this.urlHashMap["rx_dma_test:5783:1:41"] = "rx_dma_test_src_frameCtrl.v:152";
+	/* <S145>:1:42 */
+	this.urlHashMap["rx_dma_test:5783:1:42"] = "rx_dma_test_src_frameCtrl.v:154";
+	/* <S145>:1:44 */
+	this.urlHashMap["rx_dma_test:5783:1:44"] = "rx_dma_test_src_frameCtrl.v:157,158,159,160,161,162,163,164";
+	/* <S145>:1:46 */
+	this.urlHashMap["rx_dma_test:5783:1:46"] = "rx_dma_test_src_frameCtrl.v:166";
+	/* <S145>:1:49 */
+	this.urlHashMap["rx_dma_test:5783:1:49"] = "msg=&block=rx_dma_test:5783:1:49";
+	/* <S145>:1:50 */
+	this.urlHashMap["rx_dma_test:5783:1:50"] = "rx_dma_test_src_frameCtrl.v:182,183";
+	/* <S145>:1:51 */
+	this.urlHashMap["rx_dma_test:5783:1:51"] = "msg=&block=rx_dma_test:5783:1:51";
+	/* <S145>:1:52 */
+	this.urlHashMap["rx_dma_test:5783:1:52"] = "rx_dma_test_src_frameCtrl.v:184";
+	/* <S145>:1:54 */
+	this.urlHashMap["rx_dma_test:5783:1:54"] = "rx_dma_test_src_frameCtrl.v:187";
+	/* <S145>:1:57 */
+	this.urlHashMap["rx_dma_test:5783:1:57"] = "rx_dma_test_src_frameCtrl.v:191,192,193,194,195,196,197,198";
+	/* <S145>:1:59 */
+	this.urlHashMap["rx_dma_test:5783:1:59"] = "rx_dma_test_src_frameCtrl.v:200";
+	/* <S145>:1:60 */
+	this.urlHashMap["rx_dma_test:5783:1:60"] = "rx_dma_test_src_frameCtrl.v:202";
 	this.getUrlHash = function(sid) { return this.urlHashMap[sid];}
 }
 RTW_Sid2UrlHash.instance = new RTW_Sid2UrlHash();
@@ -1552,8 +1573,14 @@ function RTW_rtwnameSIDMap() {
 	this.sidHashMap["rx_dma_test:3716"] = {rtwname: "<S1>/adc_valid_q1"};
 	this.rtwnameHashMap["<S1>/Accumulations"] = {sid: "rx_dma_test:3077"};
 	this.sidHashMap["rx_dma_test:3077"] = {rtwname: "<S1>/Accumulations"};
-	this.rtwnameHashMap["<S1>/enable_rx_dma_count"] = {sid: "rx_dma_test:5763"};
-	this.sidHashMap["rx_dma_test:5763"] = {rtwname: "<S1>/enable_rx_dma_count"};
+	this.rtwnameHashMap["<S1>/frame_rx_trigger"] = {sid: "rx_dma_test:5763"};
+	this.sidHashMap["rx_dma_test:5763"] = {rtwname: "<S1>/frame_rx_trigger"};
+	this.rtwnameHashMap["<S1>/autoTrigger_i"] = {sid: "rx_dma_test:5808"};
+	this.sidHashMap["rx_dma_test:5808"] = {rtwname: "<S1>/autoTrigger_i"};
+	this.rtwnameHashMap["<S1>/frameLen_i"] = {sid: "rx_dma_test:5809"};
+	this.sidHashMap["rx_dma_test:5809"] = {rtwname: "<S1>/frameLen_i"};
+	this.rtwnameHashMap["<S1>/idleTime_i"] = {sid: "rx_dma_test:5810"};
+	this.sidHashMap["rx_dma_test:5810"] = {rtwname: "<S1>/idleTime_i"};
 	this.rtwnameHashMap["<S1>/AND1"] = {sid: "rx_dma_test:4947"};
 	this.sidHashMap["rx_dma_test:4947"] = {rtwname: "<S1>/AND1"};
 	this.rtwnameHashMap["<S1>/Cast1"] = {sid: "rx_dma_test:5616"};
@@ -1568,8 +1595,6 @@ function RTW_rtwnameSIDMap() {
 	this.sidHashMap["rx_dma_test:2881"] = {rtwname: "<S1>/Channelizer_CH1"};
 	this.rtwnameHashMap["<S1>/Channelizer_CH2"] = {sid: "rx_dma_test:3670"};
 	this.sidHashMap["rx_dma_test:3670"] = {rtwname: "<S1>/Channelizer_CH2"};
-	this.rtwnameHashMap["<S1>/Delay"] = {sid: "rx_dma_test:5764"};
-	this.sidHashMap["rx_dma_test:5764"] = {rtwname: "<S1>/Delay"};
 	this.rtwnameHashMap["<S1>/Delay1"] = {sid: "rx_dma_test:417"};
 	this.sidHashMap["rx_dma_test:417"] = {rtwname: "<S1>/Delay1"};
 	this.rtwnameHashMap["<S1>/Delay12"] = {sid: "rx_dma_test:4934"};
@@ -1814,14 +1839,24 @@ function RTW_rtwnameSIDMap() {
 	this.sidHashMap["rx_dma_test:5755"] = {rtwname: "<S8>/count"};
 	this.rtwnameHashMap["<S8>/Out2"] = {sid: "rx_dma_test:5756"};
 	this.sidHashMap["rx_dma_test:5756"] = {rtwname: "<S8>/Out2"};
-	this.rtwnameHashMap["<S9>/enb"] = {sid: "rx_dma_test:5766"};
-	this.sidHashMap["rx_dma_test:5766"] = {rtwname: "<S9>/enb"};
+	this.rtwnameHashMap["<S9>/frameTrigger_i"] = {sid: "rx_dma_test:5804"};
+	this.sidHashMap["rx_dma_test:5804"] = {rtwname: "<S9>/frameTrigger_i"};
+	this.rtwnameHashMap["<S9>/autoTrigger_i"] = {sid: "rx_dma_test:5805"};
+	this.sidHashMap["rx_dma_test:5805"] = {rtwname: "<S9>/autoTrigger_i"};
+	this.rtwnameHashMap["<S9>/frameLen_i"] = {sid: "rx_dma_test:5806"};
+	this.sidHashMap["rx_dma_test:5806"] = {rtwname: "<S9>/frameLen_i"};
+	this.rtwnameHashMap["<S9>/idleTime_i"] = {sid: "rx_dma_test:5807"};
+	this.sidHashMap["rx_dma_test:5807"] = {rtwname: "<S9>/idleTime_i"};
 	this.rtwnameHashMap["<S9>/Add"] = {sid: "rx_dma_test:5757"};
 	this.sidHashMap["rx_dma_test:5757"] = {rtwname: "<S9>/Add"};
 	this.rtwnameHashMap["<S9>/Add1"] = {sid: "rx_dma_test:5758"};
 	this.sidHashMap["rx_dma_test:5758"] = {rtwname: "<S9>/Add1"};
 	this.rtwnameHashMap["<S9>/Add2"] = {sid: "rx_dma_test:5759"};
 	this.sidHashMap["rx_dma_test:5759"] = {rtwname: "<S9>/Add2"};
+	this.rtwnameHashMap["<S9>/Compare To Constant"] = {sid: "rx_dma_test:5796"};
+	this.sidHashMap["rx_dma_test:5796"] = {rtwname: "<S9>/Compare To Constant"};
+	this.rtwnameHashMap["<S9>/Compare To Constant1"] = {sid: "rx_dma_test:5797"};
+	this.sidHashMap["rx_dma_test:5797"] = {rtwname: "<S9>/Compare To Constant1"};
 	this.rtwnameHashMap["<S9>/Constant"] = {sid: "rx_dma_test:5760"};
 	this.sidHashMap["rx_dma_test:5760"] = {rtwname: "<S9>/Constant"};
 	this.rtwnameHashMap["<S9>/Constant1"] = {sid: "rx_dma_test:5761"};
@@ -1836,8 +1871,12 @@ function RTW_rtwnameSIDMap() {
 	this.sidHashMap["rx_dma_test:5780"] = {rtwname: "<S9>/Data Type Conversion2"};
 	this.rtwnameHashMap["<S9>/Data Type Conversion3"] = {sid: "rx_dma_test:5781"};
 	this.sidHashMap["rx_dma_test:5781"] = {rtwname: "<S9>/Data Type Conversion3"};
-	this.rtwnameHashMap["<S9>/HDL Counter"] = {sid: "rx_dma_test:5743"};
-	this.sidHashMap["rx_dma_test:5743"] = {rtwname: "<S9>/HDL Counter"};
+	this.rtwnameHashMap["<S9>/Delay"] = {sid: "rx_dma_test:5788"};
+	this.sidHashMap["rx_dma_test:5788"] = {rtwname: "<S9>/Delay"};
+	this.rtwnameHashMap["<S9>/Logical Operator"] = {sid: "rx_dma_test:5800"};
+	this.sidHashMap["rx_dma_test:5800"] = {rtwname: "<S9>/Logical Operator"};
+	this.rtwnameHashMap["<S9>/frameCtrl"] = {sid: "rx_dma_test:5783"};
+	this.sidHashMap["rx_dma_test:5783"] = {rtwname: "<S9>/frameCtrl"};
 	this.rtwnameHashMap["<S9>/ch1_re"] = {sid: "rx_dma_test:5767"};
 	this.sidHashMap["rx_dma_test:5767"] = {rtwname: "<S9>/ch1_re"};
 	this.rtwnameHashMap["<S9>/ch1_im"] = {sid: "rx_dma_test:5768"};
@@ -1846,6 +1885,8 @@ function RTW_rtwnameSIDMap() {
 	this.sidHashMap["rx_dma_test:5769"] = {rtwname: "<S9>/ch2_re"};
 	this.rtwnameHashMap["<S9>/ch2_im"] = {sid: "rx_dma_test:5770"};
 	this.sidHashMap["rx_dma_test:5770"] = {rtwname: "<S9>/ch2_im"};
+	this.rtwnameHashMap["<S9>/valid_o"] = {sid: "rx_dma_test:5802"};
+	this.sidHashMap["rx_dma_test:5802"] = {rtwname: "<S9>/valid_o"};
 	this.rtwnameHashMap["<S10>/u"] = {sid: "rx_dma_test:5736:2:1697"};
 	this.sidHashMap["rx_dma_test:5736:2:1697"] = {rtwname: "<S10>/u"};
 	this.rtwnameHashMap["<S10>/DTProp1"] = {sid: "rx_dma_test:5736:2:1698"};
@@ -4300,120 +4341,68 @@ function RTW_rtwnameSIDMap() {
 	this.sidHashMap["rx_dma_test:4331:235:3"] = {rtwname: "<S142>/Constant"};
 	this.rtwnameHashMap["<S142>/y"] = {sid: "rx_dma_test:4331:235:4"};
 	this.sidHashMap["rx_dma_test:4331:235:4"] = {rtwname: "<S142>/y"};
-	this.rtwnameHashMap["<S143>/enb"] = {sid: "rx_dma_test:5743:237"};
-	this.sidHashMap["rx_dma_test:5743:237"] = {rtwname: "<S143>/enb"};
-	this.rtwnameHashMap["<S143>/Add_wrap"] = {sid: "rx_dma_test:5743:1"};
-	this.sidHashMap["rx_dma_test:5743:1"] = {rtwname: "<S143>/Add_wrap"};
-	this.rtwnameHashMap["<S143>/Constant"] = {sid: "rx_dma_test:5743:212"};
-	this.sidHashMap["rx_dma_test:5743:212"] = {rtwname: "<S143>/Constant"};
-	this.rtwnameHashMap["<S143>/Count_reg"] = {sid: "rx_dma_test:5743:9"};
-	this.sidHashMap["rx_dma_test:5743:9"] = {rtwname: "<S143>/Count_reg"};
-	this.rtwnameHashMap["<S143>/DT_convert"] = {sid: "rx_dma_test:5743:10"};
-	this.sidHashMap["rx_dma_test:5743:10"] = {rtwname: "<S143>/DT_convert"};
-	this.rtwnameHashMap["<S143>/DT_convert1"] = {sid: "rx_dma_test:5743:11"};
-	this.sidHashMap["rx_dma_test:5743:11"] = {rtwname: "<S143>/DT_convert1"};
-	this.rtwnameHashMap["<S143>/Dir_logic"] = {sid: "rx_dma_test:5743:12"};
-	this.sidHashMap["rx_dma_test:5743:12"] = {rtwname: "<S143>/Dir_logic"};
-	this.rtwnameHashMap["<S143>/Free_running_or_modulo"] = {sid: "rx_dma_test:5743:17"};
-	this.sidHashMap["rx_dma_test:5743:17"] = {rtwname: "<S143>/Free_running_or_modulo"};
-	this.rtwnameHashMap["<S143>/From_value"] = {sid: "rx_dma_test:5743:19"};
-	this.sidHashMap["rx_dma_test:5743:19"] = {rtwname: "<S143>/From_value"};
-	this.rtwnameHashMap["<S143>/Init_value"] = {sid: "rx_dma_test:5743:18"};
-	this.sidHashMap["rx_dma_test:5743:18"] = {rtwname: "<S143>/Init_value"};
-	this.rtwnameHashMap["<S143>/Relational Operator"] = {sid: "rx_dma_test:5743:211"};
-	this.sidHashMap["rx_dma_test:5743:211"] = {rtwname: "<S143>/Relational Operator"};
-	this.rtwnameHashMap["<S143>/Signal Specification"] = {sid: "rx_dma_test:5743:210"};
-	this.sidHashMap["rx_dma_test:5743:210"] = {rtwname: "<S143>/Signal Specification"};
-	this.rtwnameHashMap["<S143>/Step_value"] = {sid: "rx_dma_test:5743:21"};
-	this.sidHashMap["rx_dma_test:5743:21"] = {rtwname: "<S143>/Step_value"};
-	this.rtwnameHashMap["<S143>/Sub_wrap"] = {sid: "rx_dma_test:5743:22"};
-	this.sidHashMap["rx_dma_test:5743:22"] = {rtwname: "<S143>/Sub_wrap"};
-	this.rtwnameHashMap["<S143>/Switch_dir"] = {sid: "rx_dma_test:5743:30"};
-	this.sidHashMap["rx_dma_test:5743:30"] = {rtwname: "<S143>/Switch_dir"};
-	this.rtwnameHashMap["<S143>/Switch_enb"] = {sid: "rx_dma_test:5743:31"};
-	this.sidHashMap["rx_dma_test:5743:31"] = {rtwname: "<S143>/Switch_enb"};
-	this.rtwnameHashMap["<S143>/Switch_load"] = {sid: "rx_dma_test:5743:32"};
-	this.sidHashMap["rx_dma_test:5743:32"] = {rtwname: "<S143>/Switch_load"};
-	this.rtwnameHashMap["<S143>/Switch_max"] = {sid: "rx_dma_test:5743:33"};
-	this.sidHashMap["rx_dma_test:5743:33"] = {rtwname: "<S143>/Switch_max"};
-	this.rtwnameHashMap["<S143>/Switch_reset"] = {sid: "rx_dma_test:5743:34"};
-	this.sidHashMap["rx_dma_test:5743:34"] = {rtwname: "<S143>/Switch_reset"};
-	this.rtwnameHashMap["<S143>/Switch_type"] = {sid: "rx_dma_test:5743:35"};
-	this.sidHashMap["rx_dma_test:5743:35"] = {rtwname: "<S143>/Switch_type"};
-	this.rtwnameHashMap["<S143>/const_dir"] = {sid: "rx_dma_test:5743:36"};
-	this.sidHashMap["rx_dma_test:5743:36"] = {rtwname: "<S143>/const_dir"};
-	this.rtwnameHashMap["<S143>/const_load"] = {sid: "rx_dma_test:5743:38"};
-	this.sidHashMap["rx_dma_test:5743:38"] = {rtwname: "<S143>/const_load"};
-	this.rtwnameHashMap["<S143>/const_load_val"] = {sid: "rx_dma_test:5743:39"};
-	this.sidHashMap["rx_dma_test:5743:39"] = {rtwname: "<S143>/const_load_val"};
-	this.rtwnameHashMap["<S143>/const_rst"] = {sid: "rx_dma_test:5743:40"};
-	this.sidHashMap["rx_dma_test:5743:40"] = {rtwname: "<S143>/const_rst"};
-	this.rtwnameHashMap["<S143>/count_hit_subsystem"] = {sid: "rx_dma_test:5743:221"};
-	this.sidHashMap["rx_dma_test:5743:221"] = {rtwname: "<S143>/count_hit_subsystem"};
-	this.rtwnameHashMap["<S143>/count_hit_terminator"] = {sid: "rx_dma_test:5743:220"};
-	this.sidHashMap["rx_dma_test:5743:220"] = {rtwname: "<S143>/count_hit_terminator"};
-	this.rtwnameHashMap["<S143>/count"] = {sid: "rx_dma_test:5743:41"};
-	this.sidHashMap["rx_dma_test:5743:41"] = {rtwname: "<S143>/count"};
-	this.rtwnameHashMap["<S144>/step"] = {sid: "rx_dma_test:5743:2"};
-	this.sidHashMap["rx_dma_test:5743:2"] = {rtwname: "<S144>/step"};
-	this.rtwnameHashMap["<S144>/fb"] = {sid: "rx_dma_test:5743:3"};
-	this.sidHashMap["rx_dma_test:5743:3"] = {rtwname: "<S144>/fb"};
-	this.rtwnameHashMap["<S144>/Add"] = {sid: "rx_dma_test:5743:4"};
-	this.sidHashMap["rx_dma_test:5743:4"] = {rtwname: "<S144>/Add"};
-	this.rtwnameHashMap["<S144>/Compare To Constant"] = {sid: "rx_dma_test:5743:236"};
-	this.sidHashMap["rx_dma_test:5743:236"] = {rtwname: "<S144>/Compare To Constant"};
-	this.rtwnameHashMap["<S144>/Mod_value"] = {sid: "rx_dma_test:5743:5"};
-	this.sidHashMap["rx_dma_test:5743:5"] = {rtwname: "<S144>/Mod_value"};
-	this.rtwnameHashMap["<S144>/Switch_wrap"] = {sid: "rx_dma_test:5743:6"};
-	this.sidHashMap["rx_dma_test:5743:6"] = {rtwname: "<S144>/Switch_wrap"};
-	this.rtwnameHashMap["<S144>/Wrap"] = {sid: "rx_dma_test:5743:7"};
-	this.sidHashMap["rx_dma_test:5743:7"] = {rtwname: "<S144>/Wrap"};
-	this.rtwnameHashMap["<S144>/add"] = {sid: "rx_dma_test:5743:8"};
-	this.sidHashMap["rx_dma_test:5743:8"] = {rtwname: "<S144>/add"};
-	this.rtwnameHashMap["<S144>/count_hit"] = {sid: "rx_dma_test:5743:216"};
-	this.sidHashMap["rx_dma_test:5743:216"] = {rtwname: "<S144>/count_hit"};
-	this.rtwnameHashMap["<S145>/dir_port"] = {sid: "rx_dma_test:5743:13"};
-	this.sidHashMap["rx_dma_test:5743:13"] = {rtwname: "<S145>/dir_port"};
-	this.rtwnameHashMap["<S145>/Logical Operator"] = {sid: "rx_dma_test:5743:14"};
-	this.sidHashMap["rx_dma_test:5743:14"] = {rtwname: "<S145>/Logical Operator"};
-	this.rtwnameHashMap["<S145>/Pos_step"] = {sid: "rx_dma_test:5743:15"};
-	this.sidHashMap["rx_dma_test:5743:15"] = {rtwname: "<S145>/Pos_step"};
-	this.rtwnameHashMap["<S145>/dn"] = {sid: "rx_dma_test:5743:16"};
-	this.sidHashMap["rx_dma_test:5743:16"] = {rtwname: "<S145>/dn"};
-	this.rtwnameHashMap["<S146>/step"] = {sid: "rx_dma_test:5743:23"};
-	this.sidHashMap["rx_dma_test:5743:23"] = {rtwname: "<S146>/step"};
-	this.rtwnameHashMap["<S146>/fb"] = {sid: "rx_dma_test:5743:24"};
-	this.sidHashMap["rx_dma_test:5743:24"] = {rtwname: "<S146>/fb"};
-	this.rtwnameHashMap["<S146>/Add"] = {sid: "rx_dma_test:5743:25"};
-	this.sidHashMap["rx_dma_test:5743:25"] = {rtwname: "<S146>/Add"};
-	this.rtwnameHashMap["<S146>/Compare To Constant"] = {sid: "rx_dma_test:5743:235"};
-	this.sidHashMap["rx_dma_test:5743:235"] = {rtwname: "<S146>/Compare To Constant"};
-	this.rtwnameHashMap["<S146>/Mod_value"] = {sid: "rx_dma_test:5743:26"};
-	this.sidHashMap["rx_dma_test:5743:26"] = {rtwname: "<S146>/Mod_value"};
-	this.rtwnameHashMap["<S146>/Switch_wrap"] = {sid: "rx_dma_test:5743:27"};
-	this.sidHashMap["rx_dma_test:5743:27"] = {rtwname: "<S146>/Switch_wrap"};
-	this.rtwnameHashMap["<S146>/Wrap"] = {sid: "rx_dma_test:5743:28"};
-	this.sidHashMap["rx_dma_test:5743:28"] = {rtwname: "<S146>/Wrap"};
-	this.rtwnameHashMap["<S146>/sub"] = {sid: "rx_dma_test:5743:29"};
-	this.sidHashMap["rx_dma_test:5743:29"] = {rtwname: "<S146>/sub"};
-	this.rtwnameHashMap["<S146>/count_hit"] = {sid: "rx_dma_test:5743:214"};
-	this.sidHashMap["rx_dma_test:5743:214"] = {rtwname: "<S146>/count_hit"};
-	this.rtwnameHashMap["<S147>/u"] = {sid: "rx_dma_test:5743:236:1"};
-	this.sidHashMap["rx_dma_test:5743:236:1"] = {rtwname: "<S147>/u"};
-	this.rtwnameHashMap["<S147>/Compare"] = {sid: "rx_dma_test:5743:236:2"};
-	this.sidHashMap["rx_dma_test:5743:236:2"] = {rtwname: "<S147>/Compare"};
-	this.rtwnameHashMap["<S147>/Constant"] = {sid: "rx_dma_test:5743:236:3"};
-	this.sidHashMap["rx_dma_test:5743:236:3"] = {rtwname: "<S147>/Constant"};
-	this.rtwnameHashMap["<S147>/y"] = {sid: "rx_dma_test:5743:236:4"};
-	this.sidHashMap["rx_dma_test:5743:236:4"] = {rtwname: "<S147>/y"};
-	this.rtwnameHashMap["<S148>/u"] = {sid: "rx_dma_test:5743:235:1"};
-	this.sidHashMap["rx_dma_test:5743:235:1"] = {rtwname: "<S148>/u"};
-	this.rtwnameHashMap["<S148>/Compare"] = {sid: "rx_dma_test:5743:235:2"};
-	this.sidHashMap["rx_dma_test:5743:235:2"] = {rtwname: "<S148>/Compare"};
-	this.rtwnameHashMap["<S148>/Constant"] = {sid: "rx_dma_test:5743:235:3"};
-	this.sidHashMap["rx_dma_test:5743:235:3"] = {rtwname: "<S148>/Constant"};
-	this.rtwnameHashMap["<S148>/y"] = {sid: "rx_dma_test:5743:235:4"};
-	this.sidHashMap["rx_dma_test:5743:235:4"] = {rtwname: "<S148>/y"};
+	this.rtwnameHashMap["<S143>/u"] = {sid: "rx_dma_test:5796:1"};
+	this.sidHashMap["rx_dma_test:5796:1"] = {rtwname: "<S143>/u"};
+	this.rtwnameHashMap["<S143>/Compare"] = {sid: "rx_dma_test:5796:2"};
+	this.sidHashMap["rx_dma_test:5796:2"] = {rtwname: "<S143>/Compare"};
+	this.rtwnameHashMap["<S143>/Constant"] = {sid: "rx_dma_test:5796:3"};
+	this.sidHashMap["rx_dma_test:5796:3"] = {rtwname: "<S143>/Constant"};
+	this.rtwnameHashMap["<S143>/y"] = {sid: "rx_dma_test:5796:4"};
+	this.sidHashMap["rx_dma_test:5796:4"] = {rtwname: "<S143>/y"};
+	this.rtwnameHashMap["<S144>/u"] = {sid: "rx_dma_test:5797:1"};
+	this.sidHashMap["rx_dma_test:5797:1"] = {rtwname: "<S144>/u"};
+	this.rtwnameHashMap["<S144>/Compare"] = {sid: "rx_dma_test:5797:2"};
+	this.sidHashMap["rx_dma_test:5797:2"] = {rtwname: "<S144>/Compare"};
+	this.rtwnameHashMap["<S144>/Constant"] = {sid: "rx_dma_test:5797:3"};
+	this.sidHashMap["rx_dma_test:5797:3"] = {rtwname: "<S144>/Constant"};
+	this.rtwnameHashMap["<S144>/y"] = {sid: "rx_dma_test:5797:4"};
+	this.sidHashMap["rx_dma_test:5797:4"] = {rtwname: "<S144>/y"};
+	this.rtwnameHashMap["<S145>:1"] = {sid: "rx_dma_test:5783:1"};
+	this.sidHashMap["rx_dma_test:5783:1"] = {rtwname: "<S145>:1"};
+	this.rtwnameHashMap["<S145>:1:20"] = {sid: "rx_dma_test:5783:1:20"};
+	this.sidHashMap["rx_dma_test:5783:1:20"] = {rtwname: "<S145>:1:20"};
+	this.rtwnameHashMap["<S145>:1:21"] = {sid: "rx_dma_test:5783:1:21"};
+	this.sidHashMap["rx_dma_test:5783:1:21"] = {rtwname: "<S145>:1:21"};
+	this.rtwnameHashMap["<S145>:1:26"] = {sid: "rx_dma_test:5783:1:26"};
+	this.sidHashMap["rx_dma_test:5783:1:26"] = {rtwname: "<S145>:1:26"};
+	this.rtwnameHashMap["<S145>:1:27"] = {sid: "rx_dma_test:5783:1:27"};
+	this.sidHashMap["rx_dma_test:5783:1:27"] = {rtwname: "<S145>:1:27"};
+	this.rtwnameHashMap["<S145>:1:31"] = {sid: "rx_dma_test:5783:1:31"};
+	this.sidHashMap["rx_dma_test:5783:1:31"] = {rtwname: "<S145>:1:31"};
+	this.rtwnameHashMap["<S145>:1:32"] = {sid: "rx_dma_test:5783:1:32"};
+	this.sidHashMap["rx_dma_test:5783:1:32"] = {rtwname: "<S145>:1:32"};
+	this.rtwnameHashMap["<S145>:1:34"] = {sid: "rx_dma_test:5783:1:34"};
+	this.sidHashMap["rx_dma_test:5783:1:34"] = {rtwname: "<S145>:1:34"};
+	this.rtwnameHashMap["<S145>:1:35"] = {sid: "rx_dma_test:5783:1:35"};
+	this.sidHashMap["rx_dma_test:5783:1:35"] = {rtwname: "<S145>:1:35"};
+	this.rtwnameHashMap["<S145>:1:36"] = {sid: "rx_dma_test:5783:1:36"};
+	this.sidHashMap["rx_dma_test:5783:1:36"] = {rtwname: "<S145>:1:36"};
+	this.rtwnameHashMap["<S145>:1:40"] = {sid: "rx_dma_test:5783:1:40"};
+	this.sidHashMap["rx_dma_test:5783:1:40"] = {rtwname: "<S145>:1:40"};
+	this.rtwnameHashMap["<S145>:1:41"] = {sid: "rx_dma_test:5783:1:41"};
+	this.sidHashMap["rx_dma_test:5783:1:41"] = {rtwname: "<S145>:1:41"};
+	this.rtwnameHashMap["<S145>:1:42"] = {sid: "rx_dma_test:5783:1:42"};
+	this.sidHashMap["rx_dma_test:5783:1:42"] = {rtwname: "<S145>:1:42"};
+	this.rtwnameHashMap["<S145>:1:44"] = {sid: "rx_dma_test:5783:1:44"};
+	this.sidHashMap["rx_dma_test:5783:1:44"] = {rtwname: "<S145>:1:44"};
+	this.rtwnameHashMap["<S145>:1:46"] = {sid: "rx_dma_test:5783:1:46"};
+	this.sidHashMap["rx_dma_test:5783:1:46"] = {rtwname: "<S145>:1:46"};
+	this.rtwnameHashMap["<S145>:1:49"] = {sid: "rx_dma_test:5783:1:49"};
+	this.sidHashMap["rx_dma_test:5783:1:49"] = {rtwname: "<S145>:1:49"};
+	this.rtwnameHashMap["<S145>:1:50"] = {sid: "rx_dma_test:5783:1:50"};
+	this.sidHashMap["rx_dma_test:5783:1:50"] = {rtwname: "<S145>:1:50"};
+	this.rtwnameHashMap["<S145>:1:51"] = {sid: "rx_dma_test:5783:1:51"};
+	this.sidHashMap["rx_dma_test:5783:1:51"] = {rtwname: "<S145>:1:51"};
+	this.rtwnameHashMap["<S145>:1:52"] = {sid: "rx_dma_test:5783:1:52"};
+	this.sidHashMap["rx_dma_test:5783:1:52"] = {rtwname: "<S145>:1:52"};
+	this.rtwnameHashMap["<S145>:1:54"] = {sid: "rx_dma_test:5783:1:54"};
+	this.sidHashMap["rx_dma_test:5783:1:54"] = {rtwname: "<S145>:1:54"};
+	this.rtwnameHashMap["<S145>:1:57"] = {sid: "rx_dma_test:5783:1:57"};
+	this.sidHashMap["rx_dma_test:5783:1:57"] = {rtwname: "<S145>:1:57"};
+	this.rtwnameHashMap["<S145>:1:59"] = {sid: "rx_dma_test:5783:1:59"};
+	this.sidHashMap["rx_dma_test:5783:1:59"] = {rtwname: "<S145>:1:59"};
+	this.rtwnameHashMap["<S145>:1:60"] = {sid: "rx_dma_test:5783:1:60"};
+	this.sidHashMap["rx_dma_test:5783:1:60"] = {rtwname: "<S145>:1:60"};
 	this.getSID = function(rtwname) { return this.rtwnameHashMap[rtwname];}
 	this.getRtwname = function(sid) { return this.sidHashMap[sid];}
 }

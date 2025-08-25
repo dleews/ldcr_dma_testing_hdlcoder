@@ -3,6 +3,7 @@ set_property ip_repo_paths {../../} [current_fileset]
 
 # Add HDL source files to project
 add_files -norecurse {../hdl/rx_dma_test_src_Subsystem.v}
+add_files -norecurse {../hdl/rx_dma_test_src_frameCtrl.v}
 add_files -norecurse {../hdl/rx_dma_test_src_counter_subsystem.v}
 add_files -norecurse {../hdl/rx_dma_test_src_FilterCoef.v}
 add_files -norecurse {../hdl/rx_dma_test_src_FilterTapSystolicWvldin.v}
@@ -65,13 +66,17 @@ foreach family $Families {append IPSupportedFamily "{$family} {Production} "}
 set_property supported_families $IPSupportedFamily [ipx::current_core]
 set_property taxonomy {{/HDL Coder Generated IP}} [ipx::current_core]
 set_property description {HDL Coder generated IP} [ipx::current_core]
-set_property core_revision 2114225512 [ipx::current_core]
+set_property core_revision 2114226687 [ipx::current_core]
 
 # Add HDL source files to IP
 ipx::add_file {hdl/rx_dma_test_src_Subsystem.v} [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]
 set_property type {{verilogSource}} [ipx::get_files {hdl/rx_dma_test_src_Subsystem.v} -of_objects [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]]
 ipx::add_file {hdl/rx_dma_test_src_Subsystem.v} [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]
 set_property type {{verilogSource}} [ipx::get_files {hdl/rx_dma_test_src_Subsystem.v} -of_objects [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]]
+ipx::add_file {hdl/rx_dma_test_src_frameCtrl.v} [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]
+set_property type {{verilogSource}} [ipx::get_files {hdl/rx_dma_test_src_frameCtrl.v} -of_objects [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]]
+ipx::add_file {hdl/rx_dma_test_src_frameCtrl.v} [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]
+set_property type {{verilogSource}} [ipx::get_files {hdl/rx_dma_test_src_frameCtrl.v} -of_objects [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]]
 ipx::add_file {hdl/rx_dma_test_src_counter_subsystem.v} [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]
 set_property type {{verilogSource}} [ipx::get_files {hdl/rx_dma_test_src_counter_subsystem.v} -of_objects [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]]
 ipx::add_file {hdl/rx_dma_test_src_counter_subsystem.v} [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]

@@ -7,7 +7,7 @@
 <Project Product="Vivado" Version="7" Minor="63" Path="/home/draco/git/adi_dma_testing/iq_dma_example/hdl_ip/ipcore/rx_dma_test_v1_0/prj_ip/prj_ip.xpr">
   <DefaultLaunch Dir="$PRUNDIR"/>
   <Configuration>
-    <Option Name="Id" Val="6a7dc30019454fabaa0d51ce041f9490"/>
+    <Option Name="Id" Val="fe582eb98f7c4f50872498cacca18c80"/>
     <Option Name="Part" Val="xc7z030ifbg676-2L"/>
     <Option Name="CompiledLibDir" Val="$PCACHEDIR/compile_simlib"/>
     <Option Name="CompiledLibDirXSim" Val=""/>
@@ -378,6 +378,13 @@
         </FileInfo>
       </File>
       <File Path="$PPRDIR/../hdl/rx_dma_test_src_counter_subsystem.v">
+        <FileInfo>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PPRDIR/../hdl/rx_dma_test_src_frameCtrl.v">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>

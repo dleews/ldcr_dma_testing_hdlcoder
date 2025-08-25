@@ -5,7 +5,7 @@ High-level Resource Utilization Report for rx_dma_test
 </title>
 
 </head>
-<body bgcolor="#ffffff" link="0033CC" vlink="#666666" onload="try {if (top) {if (top.rtwPageOnLoad) top.rtwPageOnLoad('rtwIdBillOfMaterials'); else local_onload();}} catch(err) {};hdlTableShrink(this, 'Register_1_1');hdlTableShrink(this, 'Register_1_2');hdlTableShrink(this, 'Register_1_16');hdlTableShrink(this, 'Input_Port');hdlTableShrink(this, 'Output_Port');hdlTableShrink(this, 'Adder_2_1');hdlTableShrink(this, 'Adder_2_2');hdlTableShrink(this, 'Adder_2_3');hdlTableShrink(this, 'Adder_2_4');hdlTableShrink(this, 'Register_2_1');hdlTableShrink(this, 'Multiplexer_2_1');hdlTableShrink(this, 'Adder_3_1');hdlTableShrink(this, 'Register_3_1');hdlTableShrink(this, 'Register_3_2');hdlTableShrink(this, 'Multiplexer_3_1');">
+<body bgcolor="#ffffff" link="0033CC" vlink="#666666" onload="try {if (top) {if (top.rtwPageOnLoad) top.rtwPageOnLoad('rtwIdBillOfMaterials'); else local_onload();}} catch(err) {};hdlTableShrink(this, 'Register_1_1');hdlTableShrink(this, 'Register_1_2');hdlTableShrink(this, 'Register_1_16');hdlTableShrink(this, 'Input_Port');hdlTableShrink(this, 'Output_Port');hdlTableShrink(this, 'Adder_2_1');hdlTableShrink(this, 'Adder_2_2');hdlTableShrink(this, 'Adder_2_3');hdlTableShrink(this, 'Register_2_1');hdlTableShrink(this, 'Adder_4_1');hdlTableShrink(this, 'Register_4_1');hdlTableShrink(this, 'Register_4_2');hdlTableShrink(this, 'Multiplexer_4_1');">
 <script>
 <!--
 function hdlTableShrink(o,tagNameStr)
@@ -161,7 +161,7 @@ Multipliers
 Adders/Subtractors
 </td>
 <td align="center" valign="top" style="border-style: none">
-150
+153
 </td>
 
 </tr>
@@ -170,7 +170,7 @@ Adders/Subtractors
 Registers
 </td>
 <td align="center" valign="top" style="border-style: none">
-6164
+6170
 </td>
 
 </tr>
@@ -179,7 +179,7 @@ Registers
 Total 1-Bit Registers
 </td>
 <td align="center" valign="top" style="border-style: none">
-114697
+114770
 </td>
 
 </tr>
@@ -197,7 +197,7 @@ RAMs
 Multiplexers
 </td>
 <td align="center" valign="top" style="border-style: none">
-476
+494
 </td>
 
 </tr>
@@ -206,7 +206,7 @@ Multiplexers
 I/O Bits
 </td>
 <td align="center" valign="top" style="border-style: none">
-202
+243
 </td>
 
 </tr>
@@ -705,16 +705,16 @@ Number of Shift operators (4)
 Static Shift Left 							: 4
 </span>
 <br /><h5>
-Number of I/O Bits (202)
+Number of I/O Bits (243)
 </h5>
 <span name="collapsible" id="collapsible" style="font-family:monospace" onclick="hdlTableShrink(this, 'Input_Port')" onmouseover="this.style.cursor = 'pointer'">
 [+]
 </span>
 <span style="font-family:monospace">
-Number of Input Bits: 104
+Number of Input Bits: 145
 </span>
 <span name="Input_Port" id="Input_Port">
-<ul class="SystemdefinedCollapse" id="0b8df703-c4f0-4535-b356-d2655345fcb3" dataCollapse="off">
+<ul class="SystemdefinedCollapse" id="24d44e74-0700-4659-8184-8e2985740bf6" dataCollapse="off">
 <li>
 clk: 1 bit
 </li>
@@ -780,13 +780,31 @@ Accumulations
 </li>
 <li>
 <a href="matlab:coder.internal.code2model('rx_dma_test:5763')" name="code2model" class="code2model">
-enable_rx_dma_count
+frame_rx_trigger
 </a>
 : 1 bit
 </li>
+<li>
+<a href="matlab:coder.internal.code2model('rx_dma_test:5808')" name="code2model" class="code2model">
+autoTrigger_i
+</a>
+: 1 bit
+</li>
+<li>
+<a href="matlab:coder.internal.code2model('rx_dma_test:5809')" name="code2model" class="code2model">
+frameLen_i
+</a>
+: 16 bits
+</li>
+<li>
+<a href="matlab:coder.internal.code2model('rx_dma_test:5810')" name="code2model" class="code2model">
+idleTime_i
+</a>
+: 24 bits
+</li>
 
 </ul>
-<span class="SDCollapseControl" onclick="collapseSD(this, '0b8df703-c4f0-4535-b356-d2655345fcb3')" onmouseover="this.style.cursor = 'pointer'">
+<span class="SDCollapseControl" onclick="collapseSD(this, '24d44e74-0700-4659-8184-8e2985740bf6')" onmouseover="this.style.cursor = 'pointer'">
 &#8743; Less
 </span>
 <br />
@@ -849,33 +867,15 @@ counter_subsystem
 
 </h5>
 <h5>
-Adders/Subtractors (4)
+Adders/Subtractors (3)
 </h5>
 <span name="collapsible" id="collapsible" style="font-family:monospace" onclick="hdlTableShrink(this, 'Adder_2_1')" onmouseover="this.style.cursor = 'pointer'">
 [+]
 </span>
 <span style="font-family:monospace">
-12x12-bit Adder 							: 1
-</span>
-<span name="Adder_2_1" id="Adder_2_1">
-<ul>
-<li>
-<a href="matlab:coder.internal.code2model('rx_dma_test:5743')" name="code2model" class="code2model">
-adder
-</a>
-
-</li>
-
-</ul>
-
-</span>
-<br /><span name="collapsible" id="collapsible" style="font-family:monospace" onclick="hdlTableShrink(this, 'Adder_2_2')" onmouseover="this.style.cursor = 'pointer'">
-[+]
-</span>
-<span style="font-family:monospace">
 17x17-bit Adder 							: 1
 </span>
-<span name="Adder_2_2" id="Adder_2_2">
+<span name="Adder_2_1" id="Adder_2_1">
 <ul>
 <li>
 <a href="matlab:coder.internal.code2model('rx_dma_test:5757')" name="code2model" class="code2model">
@@ -887,13 +887,13 @@ Add
 </ul>
 
 </span>
-<br /><span name="collapsible" id="collapsible" style="font-family:monospace" onclick="hdlTableShrink(this, 'Adder_2_3')" onmouseover="this.style.cursor = 'pointer'">
+<br /><span name="collapsible" id="collapsible" style="font-family:monospace" onclick="hdlTableShrink(this, 'Adder_2_2')" onmouseover="this.style.cursor = 'pointer'">
 [+]
 </span>
 <span style="font-family:monospace">
 18x18-bit Adder 							: 1
 </span>
-<span name="Adder_2_3" id="Adder_2_3">
+<span name="Adder_2_2" id="Adder_2_2">
 <ul>
 <li>
 <a href="matlab:coder.internal.code2model('rx_dma_test:5758')" name="code2model" class="code2model">
@@ -905,13 +905,13 @@ Add1
 </ul>
 
 </span>
-<br /><span name="collapsible" id="collapsible" style="font-family:monospace" onclick="hdlTableShrink(this, 'Adder_2_4')" onmouseover="this.style.cursor = 'pointer'">
+<br /><span name="collapsible" id="collapsible" style="font-family:monospace" onclick="hdlTableShrink(this, 'Adder_2_3')" onmouseover="this.style.cursor = 'pointer'">
 [+]
 </span>
 <span style="font-family:monospace">
 19x19-bit Adder 							: 1
 </span>
-<span name="Adder_2_4" id="Adder_2_4">
+<span name="Adder_2_3" id="Adder_2_3">
 <ul>
 <li>
 <a href="matlab:coder.internal.code2model('rx_dma_test:5759')" name="code2model" class="code2model">
@@ -930,40 +930,91 @@ Registers (1)
 [+]
 </span>
 <span style="font-family:monospace">
-12-bit Register 							: 1
+1-bit Register 							: 1
 </span>
 <span name="Register_2_1" id="Register_2_1">
 <ul>
 <li>
-<a href="matlab:coder.internal.code2model('rx_dma_test:5743')" name="code2model" class="code2model">
-HDL Counter
+<a href="matlab:coder.internal.code2model('rx_dma_test:5788')" name="code2model" class="code2model">
+Delay
 </a>
 
 </li>
 
 </ul>
 
+</span>
+<br /><p><hr /></p><h5>
+Report for User-defined block:    <a href="matlab:coder.internal.code2model('rx_dma_test:5783')" name="code2model" class="code2model">
+frameCtrl
+</a>
+
+</h5>
+<h5>
+Adders/Subtractors (4)
+</h5>
+<span style="font-family:monospace">
+17x17-bit Adder 							: 1
+</span>
+<br /><span style="font-family:monospace">
+25x25-bit Adder 							: 1
+</span>
+<br /><span style="font-family:monospace">
+17x17-bit Subtractor 							: 1
+</span>
+<br /><span style="font-family:monospace">
+26x26-bit Subtractor 							: 1
 </span>
 <br /><h5>
-Multiplexers (1)
+Registers (6)
 </h5>
-<span name="collapsible" id="collapsible" style="font-family:monospace" onclick="hdlTableShrink(this, 'Multiplexer_2_1')" onmouseover="this.style.cursor = 'pointer'">
-[+]
-</span>
 <span style="font-family:monospace">
-12-bit 2-to-1 Multiplexer 							: 1
+16-bit Register 							: 2
 </span>
-<span name="Multiplexer_2_1" id="Multiplexer_2_1">
-<ul>
-<li>
-<a href="matlab:coder.internal.code2model('rx_dma_test:5743')" name="code2model" class="code2model">
-switchEnable
-</a>
-
-</li>
-
-</ul>
-
+<br /><span style="font-family:monospace">
+3-bit Register 							: 1
+</span>
+<br /><span style="font-family:monospace">
+1-bit Register 							: 1
+</span>
+<br /><span style="font-family:monospace">
+24-bit Register 							: 2
+</span>
+<br /><h5>
+Multiplexers (19)
+</h5>
+<span style="font-family:monospace">
+3-bit 5-to-1 Multiplexer 							: 1
+</span>
+<br /><span style="font-family:monospace">
+16-bit 3-to-1 Multiplexer 							: 2
+</span>
+<br /><span style="font-family:monospace">
+1-bit 3-to-1 Multiplexer 							: 1
+</span>
+<br /><span style="font-family:monospace">
+24-bit 3-to-1 Multiplexer 							: 1
+</span>
+<br /><span style="font-family:monospace">
+17-bit 2-to-1 Multiplexer 							: 4
+</span>
+<br /><span style="font-family:monospace">
+16-bit 4-to-1 Multiplexer 							: 1
+</span>
+<br /><span style="font-family:monospace">
+1-bit 2-to-1 Multiplexer 							: 1
+</span>
+<br /><span style="font-family:monospace">
+25-bit 2-to-1 Multiplexer 							: 4
+</span>
+<br /><span style="font-family:monospace">
+26-bit 2-to-1 Multiplexer 							: 2
+</span>
+<br /><span style="font-family:monospace">
+25-bit 3-to-1 Multiplexer 							: 1
+</span>
+<br /><span style="font-family:monospace">
+24-bit 4-to-1 Multiplexer 							: 1
 </span>
 <br /><p><hr /></p><h5>
 Report for Subsystem:    <a href="matlab:coder.internal.code2model('rx_dma_test:5751')" name="code2model" class="code2model">
@@ -974,13 +1025,13 @@ Subsystem
 <h5>
 Adders/Subtractors (1)
 </h5>
-<span name="collapsible" id="collapsible" style="font-family:monospace" onclick="hdlTableShrink(this, 'Adder_3_1')" onmouseover="this.style.cursor = 'pointer'">
+<span name="collapsible" id="collapsible" style="font-family:monospace" onclick="hdlTableShrink(this, 'Adder_4_1')" onmouseover="this.style.cursor = 'pointer'">
 [+]
 </span>
 <span style="font-family:monospace">
 32x32-bit Adder 							: 1
 </span>
-<span name="Adder_3_1" id="Adder_3_1">
+<span name="Adder_4_1" id="Adder_4_1">
 <ul>
 <li>
 <a href="matlab:coder.internal.code2model('rx_dma_test:4331')" name="code2model" class="code2model">
@@ -995,13 +1046,13 @@ adder
 <br /><h5>
 Registers (2)
 </h5>
-<span name="collapsible" id="collapsible" style="font-family:monospace" onclick="hdlTableShrink(this, 'Register_3_1')" onmouseover="this.style.cursor = 'pointer'">
+<span name="collapsible" id="collapsible" style="font-family:monospace" onclick="hdlTableShrink(this, 'Register_4_1')" onmouseover="this.style.cursor = 'pointer'">
 [+]
 </span>
 <span style="font-family:monospace">
 1-bit Register 							: 1
 </span>
-<span name="Register_3_1" id="Register_3_1">
+<span name="Register_4_1" id="Register_4_1">
 <ul>
 <li>
 <a href="matlab:coder.internal.code2model('rx_dma_test:4936')" name="code2model" class="code2model">
@@ -1013,13 +1064,13 @@ Delay15
 </ul>
 
 </span>
-<br /><span name="collapsible" id="collapsible" style="font-family:monospace" onclick="hdlTableShrink(this, 'Register_3_2')" onmouseover="this.style.cursor = 'pointer'">
+<br /><span name="collapsible" id="collapsible" style="font-family:monospace" onclick="hdlTableShrink(this, 'Register_4_2')" onmouseover="this.style.cursor = 'pointer'">
 [+]
 </span>
 <span style="font-family:monospace">
 32-bit Register 							: 1
 </span>
-<span name="Register_3_2" id="Register_3_2">
+<span name="Register_4_2" id="Register_4_2">
 <ul>
 <li>
 <a href="matlab:coder.internal.code2model('rx_dma_test:4331')" name="code2model" class="code2model">
@@ -1034,13 +1085,13 @@ HDL Counter1
 <br /><h5>
 Multiplexers (2)
 </h5>
-<span name="collapsible" id="collapsible" style="font-family:monospace" onclick="hdlTableShrink(this, 'Multiplexer_3_1')" onmouseover="this.style.cursor = 'pointer'">
+<span name="collapsible" id="collapsible" style="font-family:monospace" onclick="hdlTableShrink(this, 'Multiplexer_4_1')" onmouseover="this.style.cursor = 'pointer'">
 [+]
 </span>
 <span style="font-family:monospace">
 32-bit 2-to-1 Multiplexer 							: 2
 </span>
-<span name="Multiplexer_3_1" id="Multiplexer_3_1">
+<span name="Multiplexer_4_1" id="Multiplexer_4_1">
 <ul>
 <li>
 <a href="matlab:coder.internal.code2model('rx_dma_test:4331')" name="code2model" class="code2model">

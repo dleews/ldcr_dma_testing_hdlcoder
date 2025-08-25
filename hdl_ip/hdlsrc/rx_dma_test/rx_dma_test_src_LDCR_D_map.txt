@@ -1,4 +1,5 @@
 rx_dma_test/LDCR_D/Subsystem --> rx_dma_test_src_Subsystem
+rx_dma_test/LDCR_D/counter_subsystem/frameCtrl --> rx_dma_test_src_frameCtrl
 rx_dma_test/LDCR_D/counter_subsystem --> rx_dma_test_src_counter_subsystem
 rx_dma_test/LDCR_D/Channelizer_CH1/FilterBank/FilterCoef --> rx_dma_test_src_FilterCoef
 rx_dma_test/LDCR_D/Channelizer_CH1/FilterBank/subFilter/FilterTapSystolicWvldin --> rx_dma_test_src_FilterTapSystolicWvldin

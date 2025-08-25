@@ -100,7 +100,7 @@ thead.reportTableHeader {
 <tr>
 <td class="distinctCellColor">Model version
 </td>
-<td class="summaryTableSndColOddRow">9.535
+<td class="summaryTableSndColOddRow">9.625
 </td>
 </tr>
 <tr>
@@ -112,7 +112,7 @@ thead.reportTableHeader {
 <tr>
 <td class="distinctCellColor">IP core generated on
 </td>
-<td class="summaryTableSndColOddRow">21-Aug-2025 13:52:07
+<td class="summaryTableSndColOddRow">22-Aug-2025 09:27:23
 </td>
 </tr>
 <tr>
@@ -280,7 +280,7 @@ Target platform interface table:
 </td>
 </tr>
 <tr>
-<td class="distinctCellColor"><a class="code2model" id="code2model" href="matlab:Simulink.ID.hilite('rx_dma_test:5763')">enable_rx_dma_count</a>
+<td class="distinctCellColor"><a class="code2model" id="code2model" href="matlab:Simulink.ID.hilite('rx_dma_test:5763')">frame_rx_trigger</a>
 </td>
 <td class="distinctCellColor">Inport
 </td>
@@ -294,35 +294,63 @@ Target platform interface table:
 </td>
 </tr>
 <tr>
-<td><a class="code2model" id="code2model" href="matlab:Simulink.ID.hilite('rx_dma_test:5108')">AccumulatorCount</a>
+<td><a class="code2model" id="code2model" href="matlab:Simulink.ID.hilite('rx_dma_test:5808')">autoTrigger_i</a>
 </td>
-<td>Outport
+<td>Inport
 </td>
-<td>uint32
+<td>boolean
 </td>
 <td>AXI4
 </td>
-<td>x"108"
+<td>x"104"
 </td>
 <td>
 </td>
 </tr>
 <tr>
-<td class="distinctCellColor"><a class="code2model" id="code2model" href="matlab:Simulink.ID.hilite('rx_dma_test:5109')">ch1_rx_dma_i</a>
+<td class="distinctCellColor"><a class="code2model" id="code2model" href="matlab:Simulink.ID.hilite('rx_dma_test:5809')">frameLen_i</a>
 </td>
-<td class="distinctCellColor">Outport
+<td class="distinctCellColor">Inport
 </td>
 <td class="distinctCellColor">uint16
 </td>
-<td class="distinctCellColor">External Port
+<td class="distinctCellColor">AXI4
 </td>
-<td class="distinctCellColor">
+<td class="distinctCellColor">x"110"
 </td>
 <td class="distinctCellColor">
 </td>
 </tr>
 <tr>
-<td><a class="code2model" id="code2model" href="matlab:Simulink.ID.hilite('rx_dma_test:5739')">ch1_rx_dma_q</a>
+<td><a class="code2model" id="code2model" href="matlab:Simulink.ID.hilite('rx_dma_test:5810')">idleTime_i</a>
+</td>
+<td>Inport
+</td>
+<td>sfix24
+</td>
+<td>AXI4
+</td>
+<td>x"114"
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td class="distinctCellColor"><a class="code2model" id="code2model" href="matlab:Simulink.ID.hilite('rx_dma_test:5108')">AccumulatorCount</a>
+</td>
+<td class="distinctCellColor">Outport
+</td>
+<td class="distinctCellColor">uint32
+</td>
+<td class="distinctCellColor">AXI4
+</td>
+<td class="distinctCellColor">x"108"
+</td>
+<td class="distinctCellColor">
+</td>
+</tr>
+<tr>
+<td><a class="code2model" id="code2model" href="matlab:Simulink.ID.hilite('rx_dma_test:5109')">ch1_rx_dma_i</a>
 </td>
 <td>Outport
 </td>
@@ -336,7 +364,7 @@ Target platform interface table:
 </td>
 </tr>
 <tr>
-<td class="distinctCellColor"><a class="code2model" id="code2model" href="matlab:Simulink.ID.hilite('rx_dma_test:5741')">ch2_rx_dma_i</a>
+<td class="distinctCellColor"><a class="code2model" id="code2model" href="matlab:Simulink.ID.hilite('rx_dma_test:5739')">ch1_rx_dma_q</a>
 </td>
 <td class="distinctCellColor">Outport
 </td>
@@ -350,7 +378,7 @@ Target platform interface table:
 </td>
 </tr>
 <tr>
-<td><a class="code2model" id="code2model" href="matlab:Simulink.ID.hilite('rx_dma_test:5742')">ch2_rx_dma_q</a>
+<td><a class="code2model" id="code2model" href="matlab:Simulink.ID.hilite('rx_dma_test:5741')">ch2_rx_dma_i</a>
 </td>
 <td>Outport
 </td>
@@ -364,17 +392,31 @@ Target platform interface table:
 </td>
 </tr>
 <tr>
-<td class="distinctCellColor"><a class="code2model" id="code2model" href="matlab:Simulink.ID.hilite('rx_dma_test:5740')">rx_dma_valid</a>
+<td class="distinctCellColor"><a class="code2model" id="code2model" href="matlab:Simulink.ID.hilite('rx_dma_test:5742')">ch2_rx_dma_q</a>
 </td>
 <td class="distinctCellColor">Outport
 </td>
-<td class="distinctCellColor">boolean
+<td class="distinctCellColor">uint16
 </td>
 <td class="distinctCellColor">External Port
 </td>
 <td class="distinctCellColor">
 </td>
 <td class="distinctCellColor">
+</td>
+</tr>
+<tr>
+<td><a class="code2model" id="code2model" href="matlab:Simulink.ID.hilite('rx_dma_test:5740')">rx_dma_valid</a>
+</td>
+<td>Outport
+</td>
+<td>boolean
+</td>
+<td>External Port
+</td>
+<td>
+</td>
+<td>
 </td>
 </tr>
 </tbody>
@@ -417,7 +459,7 @@ The following AXI4 bus accessible registers were generated for this IP core:
 </td>
 <td>0x8
 </td>
-<td>contains unique IP timestamp (yymmddHHMM): 2508211352
+<td>contains unique IP timestamp (yymmddHHMM): 2508220927
 </td>
 </tr>
 <tr>
@@ -429,19 +471,43 @@ The following AXI4 bus accessible registers were generated for this IP core:
 </td>
 </tr>
 <tr>
-<td>AccumulatorCount_Data
+<td>autoTrigger_i_Data
 </td>
-<td>0x108
+<td>0x104
 </td>
-<td>data register for Outport AccumulatorCount
+<td>data register for Inport autoTrigger_i
 </td>
 </tr>
 <tr>
-<td class="distinctCellColor">enable_rx_dma_count_Data
+<td class="distinctCellColor">AccumulatorCount_Data
 </td>
-<td class="distinctCellColor">0x10C
+<td class="distinctCellColor">0x108
 </td>
-<td class="distinctCellColor">data register for Inport enable_rx_dma_count
+<td class="distinctCellColor">data register for Outport AccumulatorCount
+</td>
+</tr>
+<tr>
+<td>frame_rx_trigger_Data
+</td>
+<td>0x10C
+</td>
+<td>data register for Inport frame_rx_trigger
+</td>
+</tr>
+<tr>
+<td class="distinctCellColor">frameLen_i_Data
+</td>
+<td class="distinctCellColor">0x110
+</td>
+<td class="distinctCellColor">data register for Inport frameLen_i
+</td>
+</tr>
+<tr>
+<td>idleTime_i_Data
+</td>
+<td>0x114
+</td>
+<td>data register for Inport idleTime_i
 </td>
 </tr>
 </tbody>
@@ -526,6 +592,8 @@ Following files are generated under this folder:
 <b>IP core HDL source files</b>
 <br/>
 <a href="matlab:edit('/home/draco/git/adi_dma_testing/iq_dma_example/hdl_ip/ipcore/rx_dma_test_v1_0/hdl/rx_dma_test_src_Subsystem.v')">hdl/rx_dma_test_src_Subsystem.v</a>
+<br/>
+<a href="matlab:edit('/home/draco/git/adi_dma_testing/iq_dma_example/hdl_ip/ipcore/rx_dma_test_v1_0/hdl/rx_dma_test_src_frameCtrl.v')">hdl/rx_dma_test_src_frameCtrl.v</a>
 <br/>
 <a href="matlab:edit('/home/draco/git/adi_dma_testing/iq_dma_example/hdl_ip/ipcore/rx_dma_test_v1_0/hdl/rx_dma_test_src_counter_subsystem.v')">hdl/rx_dma_test_src_counter_subsystem.v</a>
 <br/>

@@ -1,4 +1,5 @@
 add_files -fileset sim_1 -norecurse /home/draco/git/adi_dma_testing/iq_dma_example/hdl_ip/hdlsrc/rx_dma_test/rx_dma_test_src_Subsystem.v
+add_files -fileset sim_1 -norecurse /home/draco/git/adi_dma_testing/iq_dma_example/hdl_ip/hdlsrc/rx_dma_test/rx_dma_test_src_frameCtrl.v
 add_files -fileset sim_1 -norecurse /home/draco/git/adi_dma_testing/iq_dma_example/hdl_ip/hdlsrc/rx_dma_test/rx_dma_test_src_counter_subsystem.v
 add_files -fileset sim_1 -norecurse /home/draco/git/adi_dma_testing/iq_dma_example/hdl_ip/hdlsrc/rx_dma_test/rx_dma_test_src_FilterCoef.v
 add_files -fileset sim_1 -norecurse /home/draco/git/adi_dma_testing/iq_dma_example/hdl_ip/hdlsrc/rx_dma_test/rx_dma_test_src_FilterTapSystolicWvldin.v

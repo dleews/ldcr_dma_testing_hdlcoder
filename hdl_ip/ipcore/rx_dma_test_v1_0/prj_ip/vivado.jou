@@ -3,12 +3,12 @@
 # SW Build 3865809 on Sun May  7 15:04:56 MDT 2023
 # IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
 # SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
-# Start of session at: Thu Aug 21 13:52:13 2025
-# Process ID: 351589
+# Start of session at: Fri Aug 22 09:27:28 2025
+# Process ID: 1925068
 # Current directory: /home/draco/git/adi_dma_testing/iq_dma_example/hdl_ip/ipcore/rx_dma_test_v1_0/prj_ip
 # Command line: vivado -mode batch -notrace -source vivado_ip_package.tcl
 # Log file: /home/draco/git/adi_dma_testing/iq_dma_example/hdl_ip/ipcore/rx_dma_test_v1_0/prj_ip/vivado.log
 # Journal file: /home/draco/git/adi_dma_testing/iq_dma_example/hdl_ip/ipcore/rx_dma_test_v1_0/prj_ip/vivado.jou
-# Running On: Versal, OS: Linux, CPU Frequency: 3135.514 MHz, CPU Physical cores: 24, Host memory: 67088 MB
+# Running On: Versal, OS: Linux, CPU Frequency: 1786.190 MHz, CPU Physical cores: 24, Host memory: 67088 MB
 #-----------------------------------------------------------
 source vivado_ip_package.tcl -notrace

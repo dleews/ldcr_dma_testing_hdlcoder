@@ -9,7 +9,7 @@ Delay Balancing Report for rx_dma_test
 <font SIZE="+2" COLOR="#000066">
 Delay Balancing Report for rx_dma_test
 </font>
-<br /><br /><br />'BalanceDelays' is set to 'off' for the following subsystems. This option is deprecated and no longer recommended since it can introduce functional differences between the HDL code and original model. Click on the link to <a href="matlab:hdlset_param('rx_dma_test/LDCR_D/counter_subsystem', 'BalanceDelays', 'inherit');hdlset_param('rx_dma_test/LDCR_D/Subsystem', 'BalanceDelays', 'inherit');">enable delay balancing for all subsystems</a>. See the documentation for recommended workflows on scoping delay balancing for DUT inputs and outputs and leveraging delay absorption to avoid introducing extra latency.<br /><br /><b>
+<br /><br /><br />'BalanceDelays' is set to 'off' for the following subsystems. This option is deprecated and no longer recommended since it can introduce functional differences between the HDL code and original model. Click on the link to <a href="matlab:hdlset_param('rx_dma_test/LDCR_D/counter_subsystem/frameCtrl', 'BalanceDelays', 'inherit');hdlset_param('rx_dma_test/LDCR_D/counter_subsystem', 'BalanceDelays', 'inherit');hdlset_param('rx_dma_test/LDCR_D/Subsystem', 'BalanceDelays', 'inherit');">enable delay balancing for all subsystems</a>. See the documentation for recommended workflows on scoping delay balancing for DUT inputs and outputs and leveraging delay absorption to avoid introducing extra latency.<br /><br /><b>
 Subsystem: <a href="matlab:coder.internal.code2model('rx_dma_test:5751')" name="code2model" class="code2model">
 rx_dma_test/LDCR_D/Subsystem
 </a>
@@ -18,6 +18,12 @@ rx_dma_test/LDCR_D/Subsystem
 <br /><b>
 Subsystem: <a href="matlab:coder.internal.code2model('rx_dma_test:5765')" name="code2model" class="code2model">
 rx_dma_test/LDCR_D/counter_subsystem
+</a>
+
+</b>
+<br /><b>
+Subsystem: <a href="matlab:coder.internal.code2model('rx_dma_test:5783')" name="code2model" class="code2model">
+rx_dma_test/LDCR_D/counter_subsystem/frameCtrl
 </a>
 
 </b>
